@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test:watch": "yarn test -- --watch",
-    "test:staged": "yarn test -- --findRelatedTests",
-    "test:ci": "yarn test -- --coverage",
+    "test:watch": "yarn test --watch",
+    "test:staged": "yarn test --findRelatedTests test/",
+    "test:ci": "yarn test --coverage",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   },
