@@ -10,6 +10,8 @@ module.exports = {
   },
   moduleNameMapper: {
     '@/test/(.*)': '<rootDir>/test/$1',
-    'test/(.*)': '<rootDir>/test/$1'
+    'test/(.*)': '<rootDir>/test/$1',
+    '@/src/(.*)': '<rootDir>/src/$1',
+    'src/(.*)': '<rootDir>/src/$1'
   }
 }
