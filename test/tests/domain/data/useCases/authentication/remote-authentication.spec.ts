@@ -2,8 +2,8 @@ import faker from 'faker'
 import { HttpPostClientSpy } from 'test/mocks/domain/data/useCases/authentication/protocols/http/http-post-client.mock'
 import { mockAuthentication } from 'test/mocks/domain/models/authentication.mock'
 
-import { HttpStatusCode } from 'src/domain/data/useCases/authentication/protocols/http/http-response'
-import { RemoteAuthentication } from 'src/domain/data/useCases/authentication/remote-authentication'
+import { HttpStatusCode } from 'src/data/useCases/authentication/protocols/http/http-response'
+import { RemoteAuthentication } from 'src/data/useCases/authentication/remote-authentication'
 import { InvalidCredentialsError, InternalServerError, UnexpectedError, NotFoundError } from 'src/domain/errors/'
 
 type SutTypes = {

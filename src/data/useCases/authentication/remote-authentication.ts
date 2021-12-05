@@ -1,4 +1,4 @@
-import { HttpPostClient } from 'src/domain/data/useCases/authentication/protocols/http/http-post-client'
+import { HttpPostClient } from 'src/data/useCases/authentication/protocols/http/http-post-client'
 import { InvalidCredentialsError, UnexpectedError, InternalServerError, NotFoundError } from 'src/domain/errors/'
 import { AuthenticationParams } from 'src/domain/useCases/authemtication'
 

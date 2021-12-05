@@ -1,4 +1,4 @@
-import { HttpResponse } from 'src/domain/data/useCases/authentication/protocols/http/http-response'
+import { HttpResponse } from 'src/data/useCases/authentication/protocols/http/http-response'
 
 export type HttpPostParams = {
   url: string

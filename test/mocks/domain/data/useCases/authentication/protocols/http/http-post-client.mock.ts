@@ -1,5 +1,5 @@
-import { HttpPostClient, HttpPostParams } from 'src/domain/data/useCases/authentication/protocols/http/http-post-client'
-import { HttpResponse, HttpStatusCode } from 'src/domain/data/useCases/authentication/protocols/http/http-response'
+import { HttpPostClient, HttpPostParams } from 'src/data/useCases/authentication/protocols/http/http-post-client'
+import { HttpResponse, HttpStatusCode } from 'src/data/useCases/authentication/protocols/http/http-response'
 
 export class HttpPostClientSpy implements HttpPostClient {
   url?: string
