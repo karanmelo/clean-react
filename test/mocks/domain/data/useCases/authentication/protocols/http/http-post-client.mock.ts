@@ -3,7 +3,7 @@ import { HttpResponse, HttpStatusCode } from 'src/data/useCases/authentication/p
 
 export class HttpPostClientSpy implements HttpPostClient {
   url?: string
-  body?: object
+  body?: unknown
   response: HttpResponse = {
     statusCode: HttpStatusCode.ok
   }
