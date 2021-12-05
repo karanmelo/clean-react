@@ -1,5 +1,5 @@
 import faker from 'faker'
-import { HttpPostClientSpy } from 'test/mocks/domain/data/useCases/authentication/protocols/http/http-post-client.mock'
+import { HttpPostClientSpy } from 'test/mocks/data/useCases/authentication/protocols/http/http-post-client.mock'
 import { mockAuthentication } from 'test/mocks/domain/models/authentication.mock'
 
 import { HttpStatusCode } from 'src/data/useCases/authentication/protocols/http/http-response'
