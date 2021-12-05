@@ -1,10 +1,10 @@
 import { HttpResponse } from 'src/data/useCases/authentication/protocols/http/http-response'
 
-export type HttpPostParams = {
+export type HttpPostParams<T = unknown> = {
   url: string
-  body?: object
+  body?: T
 }
 
 export interface HttpPostClient {
-  post: (params: HttpPostParams) => Promise<HttpResponse>
+  post: (params: HttpPostParams<unknown>) => Promise<HttpResponse>
 }
